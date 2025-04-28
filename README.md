@@ -11,6 +11,13 @@
 - [Error 1101 和 522 报错解决方案教程](https://youtu.be/4fcyJjstFdg) | [优选IP和优选反代IP视频教程](https://youtu.be/pKrlfRRB0gU) | [解决常见订阅测试-1问题教程](https://youtu.be/kYQxV1G-ePw)
 - [trojan免费节点部署教程](https://youtu.be/dPH63nITA0M) | [Trojan免费节点部署教程](https://youtu.be/uh27CVVi6HA) | [从入门到精通免费部署教程](https://youtu.be/ag12Rpc9KP4) | [聚合节点订阅教程](https://youtu.be/YBO2hf96150)
 - [GitHub私有库存储优选IP文教程](https://youtu.be/vX3U3FuuTT8) | [CF免费KV存储优选IP文件教程](https://youtu.be/dzxezRV1v-o) [获取免费域名教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) | [获取CF自家域名无限节点](https://youtu.be/novrPiMsK70)
+- [🔥amclubs-cfnat自动优先IP视频教程(Win桌面版)](https://youtu.be/-a6NJ6vPSu4) | [🔥Linux & openwrt软路由版](https://youtu.be/ZC6fxZwPaiM) | [🔥Mac版](https://youtu.be/gf6gncc2yEE) | [🔥安卓(Android)手机版](https://youtu.be/7yamDM38MFw) 
+
+### CF端口类型:
+~~~
+HTTP：80，8080，8880，2052，2082，2086，2095
+HTTPS：443，2053，2083，2087，2096，8443
+~~~
 
 ## Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=uh27CVVi6HA&t=31s)
 <details>
@@ -39,7 +46,7 @@
 
 </details>
 
-## Pages 上传 部署方法 [视频教程](https://www.youtube.com/watch?v=uh27CVVi6HA&t=336s)
+## Pages 上传 部署方法 [视频教程](https://www.youtube.com/watch?v=wgeM9XvZ5RA&t=1738s)
 <details>
 <summary>点击展开/收起</summary>
 	
@@ -101,7 +108,7 @@
 ## 变量说明 [视频教程](https://www.youtube.com/watch?v=ag12Rpc9KP4&t=739s)
 | 变量名 | 示例 | 必填 | 备注 | YT |
 |-----|-----|-----|-----|-----|
-| PASSWORD         | auto                                 |✅| 节点的密码，可以取任意值                                       |  |
+| PASSWORD         | auto （默认值）               |✅| 节点的密码，可以取任意值                                       |  |
 | PROXYIP          | proxyip.amclubs.kozow.com </br>或</br> [https://raw.github.../proxyip.txt](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/proxyip.txt) |❌| 访问CloudFlare的CDN代理节点(支持多ProxyIP, ProxyIP之间使用`,`或 换行 作间隔),支持端口设置默认443 如: proxyip.amclubs.kozow.com:2053 支持远程txt和csv文件 | [Video](https://youtu.be/pKrlfRRB0gU) |
 | SOCKS5           | user:password@127.0.0.1:1080         |❌| 优先作为访问CFCDN站点的SOCKS5代理                                                   | [Video](https://youtu.be/Bw82BH_ecC4) |
 | DNS_RESOLVER_URL | https://cloudflare-dns.com/dns-query |❌| DNS解析获取作用，小白勿用                                                           |  |
@@ -131,6 +138,9 @@
      
 - Android（安卓手机）
    - [v2rayNG](https://github.com/2dust/v2rayNG/releases) |  [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) | [sing-box](https://github.com/SagerNet/sing-box/releases) |  [Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases) |  [karing](https://karing.app/download) | [Hiddify](https://github.com/hiddify/hiddify-next/releases)
+
+- 软路由
+   - [openclash(clash.meta)](https://github.com/vernesong/OpenClash/releases)
   
  # 
 <center>
